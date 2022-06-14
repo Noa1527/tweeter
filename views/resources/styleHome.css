@@ -1,0 +1,207 @@
+* ::before ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+#contente{
+    height: 100%;
+}
+#contentCol5{
+    height: 100%;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.imageMatrix{
+    width: 100%;
+    height: 100%;
+}
+.imgHibouHomeBlack{
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    margin: 0 auto;
+}
+.logo{
+    width: 30%;
+    height: 10%;
+    margin-left: 13px;
+    margin-bottom: 30px;
+}
+.imgHibouHomeWhite{
+    height: 100%;
+    width: 30%;
+}
+.subscription, .connexion{
+    width: 50%;
+}
+.subscription button, .connexion button{
+    width: 100%;
+} 
+.subscription{
+    margin-top:20%;
+}
+
+/* ******************************     formSignIn and On      ********************************** */
+#contentSignIn, #contentSignOn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(36, 44, 51, 0.8);
+    z-index: 1;
+}
+#contentformIn, #contentformOn{
+    border-radius: 10px; 
+    background-color: #000;
+}
+#contentformOn{
+    height: 80%;
+    overflow-y: scroll; 
+}
+#contentformOn::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #15181c;
+}
+
+#contentformOn::-webkit-scrollbar{
+    border-radius: 10px;
+	width: 12px;
+	background-color: rgba(0,0,0,.3);
+}
+
+#contentformOn::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #3d4145;
+}
+#contentformIn{
+    height: 65%; 
+}
+.backToHome{
+    width: 10%;
+}
+.logoTwitos{
+    width: 90%;
+}
+.signInTop, .signInTop{
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+.logoCloseOn, .logoCloseIn{
+    width: 100%;
+    height: 100%;
+}
+.logoCloseOn a, .logoCloseIn a{
+    height: 50%;
+    width: 25%;
+    display: inline-block;
+}
+.logoHibouOn, .logoHibouIn{
+    width: 20%;
+    height: 100%;
+    margin: 0 auto;
+}
+.signInBottom{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.imgHibouSignOn{
+    height: 60%;
+    width: 50%;
+    margin-top: 7px;
+}
+.imgHibouSignIn{
+    height: 80%;
+    width: 50%;
+    margin-top: 7px;
+}
+.signInBottom{
+    width: 90%;
+    margin: 0 auto;
+}
+.contenantFormSignIn{
+    margin-top:10px;
+}
+
+#formSignIn{
+    width: 100%;
+}
+.inpouteOn{
+    height: 50px;
+    border: 1px solid #536471;
+    background-color: #000;
+    color: #fff;
+}
+.inputText{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #536471;
+    height: 50px;
+}
+.inputText:active{
+    border: 1px solid #0d6efd;
+}
+.boutton{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    padding-left: 5px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    padding-left: 5px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    padding-left: 5px;
+}
+.day{
+    height: 50px;
+    border: 1px solid #536471;
+    background-color: #3d4145;
+    width: 150px;
+    color: #fff;
+}
+.month{
+    height: 50px;
+    border: 1px solid #536471;
+    background-color: #3d4145;
+    width: 270px;
+    color: #fff;
+}
+.year{
+    height: 50px;
+    border: 1px solid #536471;
+    background-color: #3d4145;
+    width: 200px;
+    color: #fff;
+}
+.connexion__btn, .subscription__btn{
+    width: 45%;
+}
+#bouttonOn{
+    width:100%;
+}

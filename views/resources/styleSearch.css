@@ -1,0 +1,46 @@
+.search {
+    position: relative;
+}
+
+.search__input {
+    height: 40px;
+}
+
+.search__displayMemberResult {
+    position: absolute;
+    top: 40px;
+    left: 5px;
+    max-height: 280px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-width: 200px;
+    z-index: 100;
+    opacity: 100%;
+    background-color: black;
+}
+
+.member {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.member:hover {
+    background-color: darkgray;
+
+}
+
+.member__profileName {
+    margin: 0 0 0 0;
+}
+
+.displayTweet{
+    border-bottom: 1px solid #303435;
+}
+.tweet__head, .tweet__body, .tweet__foot{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.tweet__head span, .tweet__body span, .tweet__foot span{
+    color: #f1f1f1;
+    margin-right: 5px;
+}

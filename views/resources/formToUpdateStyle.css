@@ -1,0 +1,22 @@
+.profilImg {
+    margin: 20px 0;
+}
+
+.profilBanner {
+    margin: 20px 0;
+
+}
+
+.profilBanner__image {
+    margin: 0 20px 0 0;
+    max-width: 75px;
+    height: auto;
+    float: left;
+}
+
+.profilImg__image {
+    margin: 0 20px 0 0;
+    max-width: 75px;
+    height: auto;
+    float: left;
+}

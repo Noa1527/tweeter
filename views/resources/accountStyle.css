@@ -1,0 +1,47 @@
+.midPage{
+    position: relative;
+    border-left:1px solid #303435;
+    border-right:1px solid #303435;
+    padding: 0;
+}
+.backHome{
+    position: sticky;
+    border-bottom:1px solid #303435;
+}
+.backHome p a{
+    text-decoration: none;
+}
+.arrowleft{
+    width: 30px;
+    height: 30px;
+}
+.scrollProfil{
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+}
+.profil_banner{
+    height: 300px;
+    width: 100%;
+}
+.profil_banner img{
+    width: 100%;
+    height: 300px;
+}
+.profil_img{
+    
+   
+}
+.profil_image{
+    position: absolute;
+    top:220px;
+    left:50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.updateImgProfile{}
+.info_profil{}
+.follows{}
+.tweet_feed{}

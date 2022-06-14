@@ -1,0 +1,394 @@
+* ::before ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+header, .header{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+img{
+    width: 100%;
+}
+.imgHibou{
+    height: 7%;
+    width: 7%;
+}
+.imgHibouSign{
+    height: 60%;
+    width: 50%;
+    margin-top: 7px;
+}
+.imgHibouTop{
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    margin: 0 auto;
+}
+.logoTwitos{
+    
+    width: 100%;
+}
+.signInTop{
+    display: flex;
+}
+.signInBottom{
+    width: 90%;
+    margin: 0 auto;
+}
+/* ***************************      Errore Page      ***************************** */
+
+#contentError{
+    height: 100%;
+    background-color: rgba(36, 44, 51, 0.8);
+}
+
+/********************** style de la page HEADERUSERHOME.PHP ****************************/
+.header{
+   
+}
+.contentImg{
+    width: 30px;
+    height: 30px;
+}
+.img{
+    height: 30px;
+}
+#tweeterbtn{
+    width: 80%;
+    height: 50px;
+}
+
+.iconeNav{
+    width: 70%;
+    
+}
+.iconeNav:hover{
+    background-color:#151515 ;
+    transition-duration: 0.5ms;
+}
+.hoverUser{
+    border-radius: 5px;
+}
+.hoverUser:hover{
+    background-color:#151515 ;
+    transition-duration: 0.5ms;
+    cursor: pointer;
+}
+
+.logo{
+    width: 30%;
+    height: 30%;
+    margin-left: 13px;
+    margin-bottom: 30px;
+
+}
+.navigateur{
+    height: 300px;
+}
+
+.imgUserSmall{
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.imgHibouheader{
+    height: 60%;
+    width: 60%;
+    margin-top: 7px;
+    background-color:#151515 ;
+    border-radius: 50%;  
+}
+.inputPoint{
+    height: 60%;
+    width: 60%;
+    margin-top: 7px;
+}
+.picturs{
+    width: 20%;
+    height: 100%;
+}
+.userBar{
+    margin-top: 160px;
+
+}
+/* poppup btn user deconexion */
+
+.popoop{
+    z-index: 1;
+    width: 100%;
+    height: 700px;
+}
+.thePop{
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 15px, rgba(255, 255, 255, 0.15) 0px 0px 3px 1px;
+    bottom:100px;
+    left: 12px;
+    border-radius: 15px;
+    background-color: #000;
+    width: 300px;
+    height: 200px
+}
+.svg2{
+    width: 24px;
+    height: 24px;
+    left: calc(19px);
+    bottom:calc(-11px); 
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: inline-block;
+    mix-blend-mode: multiply;
+    transform: rotate(180deg);
+    -webkit-filter: drop-shadow( 0px 0px 15px rgb(255, 255, 255));
+    filter: drop-shadow( 0px 0px 3px 1px rgba(255, 255, 255, 0.813));
+    
+}
+.checked{
+    width: 24px;
+    height: 24px;
+
+}
+.username{
+    width: 90%;
+
+}
+.deconected{
+    border-top:1px solid hsla(0, 0%, 100%, 0.245);
+   
+}
+.deconected:hover{
+    background-color:#151515 ;
+    transition-duration: 0.5ms;
+}
+#popup{
+    display: none;
+}
+/******************************* logout **************************/
+#contentLogout{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: #242C33;
+  
+}
+.blackBoxLogout{
+    width: 25%;
+    height: 20%;
+    margin: 0 auto;
+    background-color: #000;
+    border-radius: 10px;
+    
+}
+/******************************* tweets **************************/
+.tweet{
+    border-top:1px solid #303435;
+    
+}
+.middleTweet{
+    position:relative;
+    overflow: hidden;
+
+}
+.tweet__content{
+    color: #f1f1f1;
+}
+.tweet__pseudo{
+    color: #424949  ;
+}
+.tweet__name{
+    font-size: 1.5em;
+    color: #f1f1f1;
+}
+.displayTweet{
+    border-bottom: 1px solid #303435;
+}
+.tweet__head, .tweet__body, .tweet__foot{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.tweet__head span, .tweet__body span, .tweet__foot span{
+    color: #f1f1f1;
+    margin-right: 5px;
+}
+.tweetbtn{
+    width: 40%;
+    
+}
+.scrollMiddle{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-left:1px solid #303435;
+    border-right:1px solid #303435;
+}
+.acceuilStatick{
+    position: sticky;
+    border-left:1px solid #303435;
+    border-right:1px solid #303435;
+    border-bottom:1px solid #303435;
+}
+.acceuilStatick h1{
+    margin-bottom:0;
+    padding-left: 10px;
+}
+.imgProfile{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px; 
+   
+}
+.postTweet__inputWrapper{
+    width: 100%;
+}
+.imgRounded{
+    width: 10%;
+}
+
+input::placeholder {
+    background-color: #151515;
+    color: blue;
+    font-size: 1.5em;
+  }
+/********************************    les messages    ***************************/
+ .findSomeOne[type=text]:focus{
+    border: none;
+    background-color: #151515;
+    border: 1px solid #0d6efd;
+    color: #f1f1f1;
+}
+.findSomeOne[type=text]{
+    border: none;
+    background-color: #000;
+    color: #f1f1f1;
+    border: 1px solid #303435;
+}
+.findSomeOne::placeholder {
+    font-size: 1.5em;
+}
+.scrollMiddle{
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+    /* border-left:1px solid #303435;
+    border-right:1px solid #303435; */
+}
+.postMessages{
+   
+}
+.bottomTopSearch{
+    border-bottom: 1px solid #303435;
+    
+}
+.messagesStatick h1{
+    margin-left: 5px;
+}
+.friend{
+    padding-top:15px;
+    padding-bottom:15px;
+
+
+}
+.friend:hover{
+    background-color:#151515 ;
+}
+.friend:active{
+    border-right: 2px solid #0d6efd;
+    
+}
+/* *****************************      rightmessage      ****************************** */
+.rightMsn{
+    position:relative;
+}
+.acceuilStatickMsn{
+    position: sticky;
+    border-bottom:1px solid #303435;
+    height: 50px;;
+
+}
+.imgRoundedMsn{
+    width: 30px;
+   
+}
+.imgProfileMsn{
+    /* width: 20px;
+    height: 20px; */
+    /* margin: 0 5px;  */
+}
+.boxwriteMsn{}
+.svgFile{
+    width: 40px;
+    margin-left: 5px;
+}
+.imgMsn>input{
+    display: none;
+}
+.textMsnInput{
+    width: 95%;
+    height: 40px;
+}
+.textMsnInput[type=text]:focus{
+    border: none;
+    background-color: #151515;
+    border: 1px solid #0d6efd;
+    color: #f1f1f1;
+}
+.textMsnInput[type=text]{
+    border: none;
+    background-color: #000;
+    color: #f1f1f1;
+    border: 1px solid #303435;
+}
+.textMsnInput::placeholder {
+    font-size: 1.5em;
+   
+}
+.textMsn{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.btnMsn{
+    height: 40px;
+    width: 40px;
+}
+.btnBorder{
+    border: none;
+    height: 40px;
+    width: 40px;
+}
+.scrollRightMsn{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 604px;
+}
+.rightMsnScrollStatick{
+    height: 617px;
+}
+.scrollRightMsn div{
+   width: 100%;
+}
+.conversation {
+    cursor: pointer;
+}
+
+
+  
